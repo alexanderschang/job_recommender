@@ -1,0 +1,206 @@
+{% extends 'layout.html' %} {% block body %}
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"
+  ></script>
+  <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    body {
+      background-image: url("static/navy.jpg");
+      /* background-image: url("https://cdn.pixabay.com/photo/2019/09/24/16/05/storm-4501645_1280.jpg"); */
+
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      /* Center the image */
+      background-size: cover;
+      /* Resize the background image to cover the entire container */
+      padding-top: 50px;
+    }
+
+    .jumbotron {
+      background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg");
+      background-repeat: no-repeat, repeat;
+      background-position: center;
+      /* Center the image */
+      background-size: cover;
+      /* Resize the background image to cover the entire container */
+      padding-top: 50px;
+      /* font-weight: bold; */
+      margin-top: 100px;
+      /* margin-bottom: 100px; */
+      margin-bottom: 250px;
+      padding: 100px;
+      border-radius: 50px;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+
+    #jobs-table tr td:nth-child(1),
+    #jobs-table tr th:nth-child(1) {
+      display: none;
+    }
+
+    #jobs-table tr td:nth-child(5),
+    #jobs-table tr th:nth-child(5) {
+      display: none;
+    }
+
+    #jobs-table.center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      line-height: 0.8;
+      padding: 40px;
+    }
+  </style>
+</head>
+
+<!--
+<div class="container text-center">
+  <h2>Upload Success!</h2>
+</div>
+-->
+
+<body>
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h2 class="display-4">
+        Upload success! Top 10 recommended jobs:
+      </h2>
+    </div>
+    <!--
+    <h4 class="display-4">
+      Upload Success! Top 10 recommended jobs:
+    </h4>
+  -->
+    <table class="center" id="jobs-table" border="1">
+      <tr>
+        <colgroup>
+          <col id="company" />
+          <col id="title" />
+          <col id="location" />
+          <col id="job-description" />
+        </colgroup>
+
+        {% for col in column_names %}
+        <th style="width: 300px;">{{col}}</th>
+
+        {% endfor %}
+      </tr>
+
+      {% for row in row_data %}
+      <tr>
+        {% for col, row_ in zip(column_names, row) %} {% if col == hide_column
+        %}
+        <!-- {{ row[loop.index] }} -->
+
+        <td>
+          {{ row_ }}
+
+          <!-- 
+            <div onclick="showMore(this)" id="showMore">
+              <a><button class="btn btn-info btn-xs show" id="myBtn">
+                  Show Details
+                </button></a>
+            </div>
+            -->
+
+          {% set job_location = row[2] %}
+
+          <!-- 
+            <a href="#" data-target="#theModal-1" data-toggle="modal">
+              <span>
+                <h8>{{job_location}}</h8>
+              </span>
+            </a>
+            -->
+
+          {% set row_company = row[0] %}
+
+          <!-- Button -->
+          <!-- <div onclick="showMore(this)" id="showMore"> -->
+          <div>
+            <a
+              ><button
+                class="btn btn-info btn-xs show"
+                id="modalToggle"
+                type="button"
+                data-target="#modal-{{ row_company }}"
+                data-toggle="modal"
+              >
+                View More
+              </button></a
+            >
+          </div>
+
+          <!-- Modal links -->
+
+          <!-- 
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+            -->
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="modal-{{ row_company }}"
+            style="z-index: 9999999;"
+            role="dialog"
+          >
+            <div class="modal-dialog" style="max-width: 80%;">
+              <div class="modal-content">
+                <div class="modal-header">Job Description</div>
+
+                <div class="modal-body">
+                  <!-- <p>{{ row[2] }}</p> -->
+
+                  <span>
+                    <p>{{ row[4] }}</p>
+                  </span>
+                </div>
+
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 
+            {% set job_location = row[2] %}
+            {{ job_location }}
+            -->
+        </td>
+
+        {% else %}
+        <td>
+          {{row_}}
+        </td>
+        {% endif %} {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</body>
+
+{% endblock %}

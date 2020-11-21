@@ -1,0 +1,105 @@
+{% extends 'layout.html' %} {% block body %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- <h1>Welcome to Job Recommender App by Alex</h1> -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+    <style type="text/css">
+      body {
+        background-image: url("static/logo.jpg");
+        /* background-image: url("https://cdn.pixabay.com/photo/2019/09/24/16/05/storm-4501645_1280.jpg"); */
+
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        /* Center the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+        padding-top: 50px;
+      }
+
+      .jumbotron {
+        background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg");
+        background-repeat: no-repeat, repeat;
+        background-position: center;
+        /* Center the image */
+        background-size: cover;
+        /* Resize the background image to cover the entire container */
+        padding-top: 50px;
+        font-weight: bold;
+        margin-top: 100px;
+        /* margin-bottom: 100px; */
+        margin-bottom: 250px;
+        padding: 100px;
+        border-radius: 50px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome to Job Recommender!</h1>
+        <p class="lead">
+          Jobs are recommended from a database of 4000+ Glassdoor job postings
+          after your uploaded resume has been processed
+        </p>
+
+        <hr class="my-4" />
+        <p>
+          Please upload your resume in PDF format
+        </p>
+
+        <!-- <input type="button" onclick="sayHello()" value="Say Hello" /> -->
+
+        <form
+          method="post"
+          enctype="multipart/form-data"
+          action="{{url_for('upload')}}"
+        >
+          <p>
+            <input type="file" name="file" />
+            <input type="submit" value="Upload" />
+          </p>
+        </form>
+
+        <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+{% endblock %}

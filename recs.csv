@@ -1,0 +1,383 @@
+,company,title,description,score
+0,Sanofi,Data Scientist,"Job Overview:
+
+Advanced Analytics - Data Scientist will execute advanced computational approaches to accelerate and optimize evidence-based pharmaceutical product development. He/She will leverage high-dimensional population health data to support R&D, Medical, HEVA, commercial product development, access and business strategy. The Advanced Analytics Data Scientist roles will generate analytics required by healthcare decision makers to support patient access and use of Sanofi medicines and he/she will contribute to the insights required by Sanofi internal teams to develop and commercialize the most impactful medicines.
+
+Job Responsibilities:
+
+Get to apply a broad array of capabilities spanning machine learning, statistics, text-mining/NLP, and modeling to extract insights to structured and unstructured healthcare data sources, pre-clinical, clinical trial and complementary real world information streams.Work on a variety of team-based projects providing expertise in analytical and computational approaches. Work with the latest tools and technologies to impact drug development Contribute to the Advanced Analytics plans for projects across R&D, Medical Affairs, HEVA and Market Access Strategies and Plans.Design and implement data models, perform statistical analysis and create predictive analysis modelsLeverage analytics involving large datasets to refine and improve data models.Build and construct prototypes of Advanced Analytic work-flows.
+
+Essential Skills & Experience:
+
+PhD or ScD in quantitative field such as Health Services research, Medical Economics, Medical Informatics, Biostatistics, or Computer Science, computer engineering or related field Relevant Masters Degree, with at least 3 years of relevant industry experienceExperience with open source technologies, ML libraries, and programming languages (R, python)Experience with advanced ML techniques (neural networks/deep learning, reinforcement learning, SVM, PCA, etc.).An ability to interact with a variety of large-scale data structures e.g. HDFS, SQL, noSQLExperience working across multiple compute environments to create workflows and pipelines (e.g. HPC, cloud, linux systems)Experience with any of the following: biomedical data types/population health data/real world data/novel data streams.Strong oral and written communication skillsA demonstrated ability to work and collaborate in a team environment
+
+Desirable Skills & Experience
+
+Experience with reproducible and collaborative technology platforms (e.g. github, containers, jupyter notebooks)Experience with big data analytics platforms and/or workflow toolsExposure to NLP technologies and analysesKnowledge of some datavis technologies (ggplot2, shiny, plotly, d3, Tableau or Spotfire)
+
+Sanofi Inc. and its U.S. affiliates are Equal Opportunity and Affirmative Action employers committed to a culturally diverse workforce. All qualified applicants will receive consideration for employment without regard to race; color; creed; religion; national origin; age; ancestry; nationality; marital, domestic partnership or civil union status; sex, gender, gender identity or expression; affectional or sexual orientation; disability; veteran or military status or liability for military status; domestic violence victim status; atypical cellular or blood trait; genetic information (including the refusal to submit to genetic testing) or any other characteristic protected by law.
+
+Sanofi Glassdoor: #GD-SA
+
+Sanofi LinkedIn: #LI-SA
+
+At Sanofi diversity and inclusion is foundational to how we operate and embedded in our Core Values. We recognize to truly tap into the richness diversity brings we must lead with inclusion and have a workplace where those differences can thrive and be leveraged to empower the lives of our colleagues, patients and customers. We respect and celebrate the diversity of our people, their backgrounds and experiences and provide equal opportunity for all.",0.2507215388704123
+1,IntelliPro Group Inc.,Data Scientist,"Responsibilities·
+
+Analyze large datasets to glean actionable insights and identify emerging opportunities· Create metrics to measure the success of products, services, and features.· Use data mining and machine learning skills to design and develop products which drive engagement, growth, retention, and monetization.· Develop and deploy scalable classification, regression, ranking, and optimization algorithms.· Work with data engineers and other stakeholders in data products pipeline to enable automation of the data-driven products.· Communicate both routine and ad-hoc data analysis results in a clear, insightful and actionable way.
+
+Minimum Qualifications ·
+
+BA/BS in Statistics, Computer Science, Math or other related technical fields.· 2+ years prior research, data science, or engineering experience in building and implementing recommender systems, machine learning models/algorithms, etc.· Excellent programming skills - ability to prototype effective simple or complex algorithms and collaborate with engineering team to implement them in the production system· Familiarity with or willingness to learn large-scale distributed computing tools (Hadoop, Hive, etc.)
+
+Preferred Qualifications ·
+
+PhD or MSc degrees in Statistics, Computer Science, Math or other related technical field. · Proficient in R or Python. · Familiar with or have contributed to open source machine learning tools/platforms.· First author publications in top-tier conferences or journals.
+
+Powered by JazzHR",0.24848889749781009
+2,Praxis Engineering,Data Scientist,"What will you be doing?
+
+The Contractor shall perform the data integration work to extract, transform and load (ETL) data in a variety of formats into a standardized model that will be provided to the Contractor. The Sponsor requires personnel who have experience with large capability development initiatives, entity resolution technologies, and who have the ability to effectively collaborate with a variety of both internal and external organizations. The Contractor shall then write custom code and/or integrate open source tools into the platform to exploit and visualize that data. When possible, the Contractor shall pull relationships out of that data, perform basic entity extraction, correlate entities together, and create custom visualizations on the data in the system. The Sponsor will define and prioritize requirements for execution via an Agile process and will set the technical direction based on stakeholder interactions and feedback. The Sponsor platform must make data available for query, manipulation, and allow analytics on comingled data sets at scale.
+
+To the greatest extent feasible, these product development initiatives will build atop and augment existing Sponsor investments. To this end, the Contactor shall be required to work seamlessly with other Contractor teams. The Contractor shall assist the Sponsor in evaluating open source, commercial, and existing solutions available within the Sponsor's environment. The Contractor shall identify solutions, produce illustrative prototypes, and work with the Sponsor to generate recommendations and a software product implementation roadmap. To the greatest extent feasible, these solutions will build atop and augment existing Sponsor investments to build a robust product. The Contractor shall assist in implementation and evolving recommendations based on outcomes as directed by the Sponsor.
+
+What will you need?
+
+
+
+TS/SCI with appropriate poly active clearance
+Expertise in the following technologies / software development areas:
+ElasticSearch / data integration /search and discovery operations
+CentOS / Linux
+JavaScript / UI development
+MySQL (or Oracle or other DBs)
+SQL
+Open source programming packages
+Expertise in API Design
+Expertise in authoring and consuming Web Services
+Expertise in Entity Resolution technologies and concepts
+Expertise in open source technologies and experience in pulling together multiple open source modules to satisfy a system requirement
+Experience securely and efficiently facilitating search and discovery within large systems
+
+
+with ""row-level"" or ""cell-level"" security
+
+
+
+Experience developing Web Applications
+Expertise in requirements definition
+Demonstrated on-the-job experience with Agile methodologies
+Demonstrated on-the-job experience performing data migrations or related O&M activities
+
+
+Other demonstrated experiences which are highly desired, though not required, include:
+
+
+
+Experience or expertise developing software using Go Language (Google's Open Source programming language)
+Expertise in Extraction, Transformation, and Loading (ETL) of disparate datasets
+Demonstrated experience with large-scale data analytics efforts in the Sponsor organization or with Sponsor partner organizations
+Expertise performing large scale data migrations for legacy systems
+Experience in Information Security, Assessment & Accreditation process with Sponsor
+
+
+Clearance
+
+TS/SCI with appropriate polygraph
+
+Who are we?
+
+Praxis Engineering* was founded in 2002 and is headquartered in Annapolis Junction MD - with growing offices in Chantilly VA and Aberdeen MD.
+
+Praxis Engineering is a consulting, product, and solutions firm dedicated to the practical application of software and system engineering technologies to solve complex problems.
+
+With over 350 employees supporting more than 50 contracts, Praxis brings together world class engineers with proven engineering best practices, domain expertise, commercial technologies and proven agile management approaches to create high value solutions aimed at helping our customers meet their most critical business and mission objectives.
+
+
+
+Praxis Engineering is a wholly owned subsidiary of General Dynamics IT.
+
+
+Why Praxis?
+
+We are focused on continual learning and evolution. We don't do things because ""that's the way we've always done things""; we listen to our employees and adapt to the changing marketplace. We look at the big picture and encourage our engineers to get training and certifications in emerging technologies that will help shape our customer's mission. We've been profitable year after year. We're always on the lookout for great engineers to join the team and we recognize that our employees are the heart and soul of what we do. We focus on recruiting talented people, treating them right, and then allowing them to do what they do best. No red tape. No micromanagement. Smart people want to work with smart people, and we love people who are passionate about what they do, and finding ways to do it better.
+
+And then there is the...
+
+Benefits
+
+Competitive salary
+Office perks such as free soft drinks and snacks (both healthy and not-so-healthy)
+Praxis swag (annual gift certificate to purchase top brand Praxis apparel)
+Comprehensive health insurance plans
+Parental leave
+401k contribution/match: combination of profit share/contribution (4%) and employer match (up to 4%) for a total of 8%.
+Annual bonus plan
+Four weeks Paid Time Off + 10 holidays + comp time eligibility
+Training is a priority! Take advantage of our endless in-house training opportunities - or seek out vendor offered (paid) training opportunities like conferences, certification courses and seminars.
+Conferences (recently attended by Praxis employees): AWS Summit, IoT World, Black Hat and DefCon.
+Training & Certifications: Splunk, AWS, Big Data/Cloudera, VMWare, Scrum Master...the list of certifications goes on and on!
+Praxis University: Cyber Research, Data Analytics, IoT, AWS and RedHat course offerings and hands-on training.
+We truly believe the right work-life balance can exist, and it's here at Praxis. Our work is extremely important, but your job is just a part of who you are. When you enjoy your life outside of our walls, you're at your best the next time you walk through our doors. We do all we can to assure that happens every day.
+
+
+Praxis Engineering provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or veteran status, or any other protected class.",0.24663629211643504
+3,Pacific Northwest National Laboratory,Biological Data Scientist,"
+*Organization and Job ID**
+
+
+Job ID: 310880
+
+Directorate: Earth & Biological Sciences
+
+Division: Biological Sciences
+
+Group: Biological Systems Science
+
+
+
+*Job Description**
+
+
+The Computational Biology Team at the Pacific Northwest National Laboratory (PNNL) is seeking a data scientist to join our team. Expertise in statistics, bioinformatics, analysis of omic data, biomarker discovery, software development, and working in multidisciplinary teams are highly relevant.
+
+The data scientist will contribute to diverse fundamental science and national security related research programs studying human health problems such as cancer and infectious diseases as well as microbial communities and environmental microbiology. The candidate will be responsible for data analysis from various high-throughput omics platforms, such as DNA/RNA sequence data, proteomics and metabolomics. The incumbent will define and carry out the application of existing methodologies and original research in machine learning and data science, however the candidate should have a breadth of skills to work on diverse data types. In addition to technical research, this position expects participation and career development in task management, proposal writing, business development, and publishing.
+
+The ideal candidate should have a statistics and/or programming formal education or background with knowledge of fundamental basic biology. The candidate should have good communication skills with a demonstrated capability to perform multi-disciplinary, collaborative research. The candidate should also have an interest in applying new approaches and knowledge to science problems associated with human health, bioenergy, and carbon cycling. They should be highly proficient in at least on programming language (Python, R, e.g.) and have experience in software development practices (version control, unit testing, etc.).
+
+
+
+*Minimum Qualifications**
+
+
+BS/BA with 0-1 years of experience; MS/MA with 0-1 years of experience
+
+
+
+*Preferred Qualifications**
+
+
++ Must be proficient with performing exploratory data analytics using a standardized programming language (e.g. Python, C/C++)
+
++ Exploratory methods include, but are not limited to, clustering, trend analysis, time series analysis, graph analytics, statistical analysis, Markov models
+
++ AI/machine learning experience preferred
+
++ Experience and interest in information security is preferred
+
++ Significant experience with software development tools (GitHub) and Python or R development experience
+
+
+
+*Equal Employment Opportunity**
+
+
+Battelle Memorial Institute (BMI) at Pacific Northwest National Laboratory (PNNL) is an Affirmative Action/Equal Opportunity Employer and supports diversity in the workplace. All employment decisions are made without regard to race, color, religion, sex, national origin, age, disability, veteran status, marital or family status, sexual orientation, gender identity, or genetic information. All BMI staff must be able to demonstrate the legal right to work in the United States. BMI is an E-Verify employer. Learn more at jobs.pnnl.gov.
+
+
+
+*_Please be aware that the Department of Energy (DOE) prohibits DOE employees and contractors from participation in certain foreign government talent recruitment programs. If you are offered a position at PNNL and are currently a participant in a foreign government talent recruitment program you will be required to disclose this information before your first day of employment._**
+*Other Information**
+
+
++ U.S. Citizenship
+
++ Background Investigation: Applicants selected will be subject to a Federal background investigation and must meet eligibility requirements for access to classified matter in accordance 10 CFR 710, Appendix B.
+
++ Drug Testing: All Security Clearance (L or Q) positions will be considered by the Department of Energy to be Testing Designated Positions which means that they are subject to applicant, random, and for cause drug testing. In addition, applicants must be able to demonstrate non-use of illegal drugs, including marijuana, for the 12 consecutive months preceding completion of the requisite Questionnaire for National Security Positions (QNSP).
+
+_Directorate:_ _Earth & Biological Sciences_
+
+_Job Category:_ _Scientists/Scientific Support_
+
+_Group:_ _Biological Systems Science_
+
+_Opening Date:_ _2020-05-18_
+
+_Closing Date:_ _2020-05-25_",0.24184964962296632
+4,Alector,"Scientist, Stem Cells and Genomics ~ iPSC","At Alector, our mission is to develop therapies that empower the immune system to cure neurodegeneration. Our team is solely focused on developing cures for some of the most challenging diseases facing our society. We are supported in this mission by experienced and accomplished scientists and board members, leading healthcare investors and some of the most innovative pharma companies.As an investigator in our Genomics team, you will play a key role in Alector's efforts to understand the biology of brain disorders and translate phenomenal science into exceptional drugs. You will work closely with other scientists to validate original targets and develop innovative drugs targeting the immune cells to treat neurodegenerative disorders and cancer. You will apply your existing technical skills to carry out analyses central to Alector’s scientific discovery effort - and learn new skills along the way. As an early hire, you’ll be influential in championing and developing Alector’s culture and discovery strategy.During your first year, your goals will include: Closely collaborate with research scientists to develop cell models to evaluate new potential target genesKeep track of cutting-edge methods and introduce them when appropriateCommunicate analytical analyses verbally and in writing to teammatesWe'd love to hear from you if: You have expertise in induced pluripotent stem cells manipulation and differentiation, ideally towards myeloid cell typesYou have experience in cell culture and lentiviral transduction, ideally with CRISPRi/CRISPRa systemsYou take pride in being persistent, self-motivated, and efficientYou thrive in an environment where we work independently and on teamsYou demonstrate a track record of learning new things and troubleshooting independentlyYou have a working knowledge of current technologies for genomic data generation, such as RNAseqYou have a PhD with at least 3 years of postdoc or equivalent experience in industry in immunology, neuroscience or cell biology.You have a point of view but are low egoAt Alector, we believe that high-performing teams include people from a wide variety of backgrounds and experiences who can challenge each other’s assumptions with fresh perspectives and bring creative ideas to the table. We are committed to building an open, diverse, and inclusive environment for all employees. We do not discriminate on the basis of race, religion, color, national origin, sex, gender, sexual orientation, age, marital status, veteran status, disability status, or any other characteristics protected under applicable federal, state, or local laws.Alector is a great place to learn and experiment. If you excel in a dynamic environment where everyone is committed to finding a cure, where you’ll drive growth, this is the role for you. There is no limit to how far you can go with us.BenefitsWhile we’ve focused on what to look forward to during the first year and beyond, Day One is great, too: committed and driven colleagues, a bold and important company goal, state-of-the-art brand-new brightly-lit offices in the heart of the biotech area, competitive compensation and benefits. But these matter only if you’re excited to build and own something great, and take on these challenges with us. Come join us.",0.23658202512722035
+5,Quest Integrity,In-Line Inspection Data Analyst,"In-Line Inspection Data AnalystQuest Integrity, a global leader in inspection and engineering services, is seeking an In-Line Inspection Data Analyst/Pipeline to process and analyze data, apply accepted engineering practices for fitness-for-purpose assessments, finalize reports for state-of-the-art ultrasonic wall thickness and geometry in-line inspections of pipelines, and provide constructive feedback to the software development team. Phases of this job may be carried out at the local regional office, other regional offices located worldwide, or at client facilities. This is a junior to mid-level position that includes extensive training.
+
+Position based in Tulsa, Oklahoma.
+
+DUTIES AND RESPONSIBILITIES:
+
+· Initially, duties will include participation in and successful completion of a training program which will include:
+
+Basic training in analysis of ultrasonic data acquired during the inline inspection of pipelines Introduction to accepted engineering practices in the pipeline industry Training in analysis and processing of other in-line inspection technologies Training in comparison of various in-line inspection datasets with other information, records, dig-results, etc.
+
+· Evaluate software and provide recommendations to drive improvement in processes, inspection technology, software applications, and related documentation
+
+· Interface between Data Analysis team to provide training and bring feedback to Software Development team
+
+· Process and analyze data that has been acquired during an in-line inspection using proprietary software applications
+
+· Apply accepted engineering practices in order to assess fitness-for-purpose of the inspected pipeline
+
+· Finalize reports and communicate to client results and recommendations
+
+· Fulfill project management and coordination needs as requested
+
+KNOWLEDGE AND SKILLS:
+
+· Minimum high school diploma or equivalent; further education preferred
+
+· Minimum of 3-years’ experience analyzing ILI data or using ILI Analysis Software (ultrasonic technology preferred)
+
+· Capable of making independent decisions/recommendations which can have immediate or time dependent consequences associated with pipeline integrity
+
+· Must be customer focused, have excellent attention to detail and a strong ability to work in a team environment
+
+· Requires excellent ability to represent the company in a professional manner with regard to communicating and interfacing with clients and committed to maintaining confidentiality and protecting intellectual property
+
+· Must be able to pass visual examinations in order to analyze inspection data: near-vision acuity and color contrast differentiation
+
+· Must possess excellent computer skills; Microsoft Suite and easily adapt to proprietary software applications
+
+· Must have excellent numerical skills
+
+· Must be proficient in English (verbal and written)",0.23472966640495255
+6,Shelf Engine,Data Scientist," • Be one of the first to join our rapidly growing, well-funded startup in Downtown Seattle • Apply Data Science best-practices to reducing the cost and ecological impact of food waste • Make a big contribution across our entire product in this small, passionate teamAt Shelf Engine, we’re harnessing the power of AI to provide real-time, intelligent forecasting for food retailers like grocery stores, food service, and cafes across the United States. We’re able to drastically reduce the amount of shrink (food waste) which in turn drives profit for retailers, lowers costs for consumers, and reduces the ecological impact of waste. We’re using technology to solve a globally-relevant problem that both creates a positive environmental impact and an exciting (and potentially massive) commercial opportunity.We are hiring a Data Scientist to join our growing Engineering and Data team. You will be spearheading projects across the organization to determine what data we collect and how, and which other sources we passively utilize to improve our day to day business processes. Your background in mathematics and business logic will directly impact the accuracy of our forecasting, striking a fine balance between reducing customers food waste, and avoiding understocking situations. Help us solve critical problems related to the following areas: time-series, demand forecasting, continuous models, feature/trend analysis, and probability distributions.As a Data Scientist at Shelf Engine, you will:Work cross-functionally (e.g. Product, Engineering, Operations, etc) to frame problems, both mathematically and within the business context; to measure and optimize products and business processes; to identify opportunities, assess risk potentials and explain trends; to drive customer adoption and revenue growth Own the end-to-end experience with data, including querying, aggregation, deep analysis, visualization and models; presenting findings/actionable insights to internal and external stakeholdersDesign, analyze, and run both simulated and live experiments (A/B and multivariate tests) to drive KPI improvementContinuously improve the quality and accessibility of our analytical capabilities and framework as well as data reporting infrastructure Assist in data requirements gathering and data validations to improve data platforms And we think you would make a great Data Scientist if you: Have a Masters degree in a related quantitative field (Computer Science, Math, Statistics, Engineering, Physics, Economics) Bring 4+ years of relevant working experience in a similar role, preferably with specific experience in the domain of time series demand or other forecasting Have production-level experience with data querying languages (e.g. SQL), scripting languages (e.g. Python), and statistical/mathematical programming languages (e.g. R, Matlab) Expertise with statistical analysis, applying various machine learning techniques, especially predictive modeling, to solve business problems Bring a proven ability to think creatively, solve problems, learn quickly, work independently, handle ambiguity, and adapt to change in a fast-paced environment Excellent written, verbal, and interpersonal communication and presentation skills About Us:At Shelf Engine, you will join a small, powerful Product team that’s hungry for change in an untapped industry. Our founders are well versed in the food industry, and have successfully built Product and Engineering teams. We’re not only solving complex technical problems at scale, but tackling key initiatives with large environmental impacts a well. We're a tight-knit and passionate team, determined to disrupt an industry with wide-ranging impact, and creating a significant commercial opportunity. We’re looking to add you - a Data Scientist who is passionate about marketplaces, demand forecasting, and reducing waste! APPLY NOW and get in early on a team that's changing food distribution for the better, or learn more about us at http://shelfengine.comShelf Engine is an equal opportunity employer and do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.",0.23445830848387936
+7,Via Transportation,Data Scientist,"As a Data Scientist, you'll utilize advanced quantitative & statistical analysis techniques to drive business model innovation for Via, and work closely with our senior management to help drive decisions.
+
+What You'll Do
+
+Adeptly interpret and utilize mass quantities of data to generate innovative hypotheses & insights, and present these insights to the different stakeholders
+Use sophisticated statistical methods to solve problems, leveraging up-to-date academic research and tools
+Quantitatively test hypotheses about customer and driver behavior using large sets of proprietary data; leverage results to increase conversion and retention at every touch point
+Design and implement novel experiments to better understand current operation as well as expansion to new markets
+
+Who You Are
+
+Obsessed with data; analytical and rigorous, with a thorough understanding of statistics and machine learning
+Extraordinary communicator with demonstrated writing and editing skills.
+Passionate about elegant visualization; you understand the importance of graphic techniques in communicating a quantitative idea effectively
+Have a deep understanding of business concepts within strategy, operations, and marketing
+Have a PhD in statistics, machine learning, physics, math, systems biology, or highly quantitative fields in social sciences, including 2+ years of graduate-level research experience (or the equivalent).
+Have experience with predictive modeling and statistical analysis techniques in a business environment
+Demonstrate mastery in some or all of the following: SQL, Python, R, and Tableau
+
+We're Via, and we build technology that changes the way the world moves. Our guiding principle is simple: we know that the future of transportation is safe, dynamic, shared public mobility the kind that reduces carbon emissions across congested cities, compliments existing transit infrastructure, and provides everyone with accessible, efficient, and affordable ways of getting around. Through intelligently designed operating systems and sophisticated routing algorithms, we build localized and customizable solutions for each and every one of our global partners (100 and counting, last we checked)
+
+Long story short: we're very proud to be championing the transportation evolution of cities around the world and modernizing mobility. Ready to join the ride?
+
+Via offers above market compensation packages and benefits, including equity, health insurance, and relocation assistance.
+
+Via is an equal opportunity employer.",0.23397436459589097
+8,Slice (NY),Principal Data Scientist,"What is Slice?
+
+Slice is the leading technology and marketing platform made exclusively for local pizzerias, making it super easy to order delicious, authentic local pizza anywhere, anytime. We serve the $45 billion U.S. pizzeria market in two ways: by providing a pizza-centric mobile and web ordering experience for consumers, and by empowering local restaurants with the technology, tools, and marketing to grow their business, while helping them compete with Big Pizza. Can you imagine what a small mom and pop pizza shop could achieve with the resources of Domino’s?
+
+As the Principal of Data Science, you have an amazing opportunity to take a lead role with technical authority for a leading marketplace technology company. You will be hands-on while managing a team of data scientists to develop and implement machine learning algorithms and personalization products that directly impact our customers. You will be partnering closely with our product, engineering and business stakeholders to open up new opportunities and accelerate the growth of the business. Your strong foundations in mathematics, statistics and machine learning and exceptional communication and leadership skills will bring unique insights into our strategy. Your passion for solving problems and sense of urgency will fuel the success of the team.
+
+What we're looking for:
+
+Graduate degree in Computer Science, Mathematics, Operation Research or equivalent quantitative fields. PhD preferred
+6+ years of industry/academic experience in data science, machine learning or a related field using mainstream languages such as Python, Spark etc
+Demonstrated craft in modeling and optimization techniques tailored to meet business needs
+Experience in developing production level code or partnering with engineering teams to deliver product features
+Track record of developing junior members from academia/industry to advance their careers in a business environment
+Familiarity with programming languages such as Java, C++, Perl
+Experience in product management a plus
+
+History of Slice:
+
+Slice was born in 2010 and has quietly bootstrapped its way to building a network of more than 11,000 pizzerias nationwide. Ilir Sela, our founder and CEO, started the company as a passion project to help his friends and family in the pizza business, but he quickly saw a massive opportunity to champion these small businesses by bringing their craft to the masses. Ilir has since built an amazing team of operators, marketers, technologists, and investors — all dedicated to making it easier for people to enjoy their favorite local pizza while helping local shops succeed.
+
+Our Pizza Philosophy
+
+Slice is on a journey to be the most valuable pizza brand on the planet. We connect makers and eaters to enrich their lives through the power of specialization and pizza expertise. Backed by generations of knowledge and cutting-edge technology, we give makers the platform and voice to take charge of their industry, expand their coverage, and fill the world with authentic cuisine. When passionate makers turn their craft into their livelihood, we all live happier, fuller lives. People stop accepting the homogenous, mass-produced pies of big chains and robotic trucks because the quality, variety, and authenticity of Slice is both hyper-convenient and known worldwide. We believe pizza isn’t just food. It’s a slice of community, a slice of culture, a slice of life.
+
+We’re growing our family every day — so, if you’ve got a passion for local, authentic pizza and the drive to help share it with the world, we’d love to have you on the team! Check out a few awards we’ve recently won for our workplace and culture: Inc., Crain's, BuiltinNYC
+
+Slice is an Equal Opportunity Employer and is committed to building an inclusive environment for people of all backgrounds and everyone is encouraged to apply. We do not discriminate on the basis of race, color, gender, sexual orientation, gender identity or expression, religion, disability, national origin, protected veteran status, age, or any other status protected by applicable national, federal, state, or local law.",0.23383051178320483
+9,Transaction Network Services,Data Analyst,"Data Analyst
+
+Position Description
+
+TNS has an exciting opportunity for a temporary data analyst working on our Call Guardian products! In this role you will:
+
+•Practice of using Internet information and other media to conduct research and document trends in robocalling and call authentication.
+
+•Practice of using Internet information, especially free information on websites, in researching consumer complaints (or lack thereof) of unwanted and illegal robocalls.
+
+•Use writing skills to update technical and process documentation to be shared internally and with customers.
+
+•Use writing skills to develop stories regarding robocalling practices and how to combat bad robocalls.
+
+•Use analytical skills to assist QA teams in performing software testing functions.
+
+•Use analytical skills to review data entries, and review performance indicators to review robocalling data.
+
+•Design experiments leading to better understanding and ways to improve customer experience by focusing on wanted and unwanted robocalls.
+
+•Conduct handset testing to compare various robocalling solutions available in the market.
+
+•Evaluate new data sources to determine how they might be utilized by TNS in combating robocalls.
+
+•Help trouble-shoot data issues and work closely with clients, data scientists, operations, customer care and engineering.
+
+•Maintain “Buddy Book” instruction manual documenting job responsibilities and functions so that other team members could complete such tasks in an absence.
+
+Qualifications
+
+-Candidate must be a
+
+ self-starter, have the ability to multi-task, with limited supervision,
+
+ and have solid verbal and written communication skills.
+
+
+
+Strong analytical skills
+
+
+with the ability to collect, organize, analyze and disseminate significant
+
+ amounts of information with attention to detail and accuracy.
+
+
+
+Strong Writing skills
+
+
+with the ability to write stories, blogs, and update technical documentation.
+
+
+
+An understanding of
+
+
+Microsoft Office (Outlook, Excel, Word and PowerPoint) and basic knowledge
+
+ of databases (SQL, etc.) as well as adept at queries, report writing and
+
+ presenting findings (Excel and PowerPoint).
+
+
+
+Major studies in Mathematics,
+
+
+Economics, Computer Science, Information Management or Statistics.
+
+We have been delivering industry-leading solutions for the payments, financial and telecommunications industries since 1990. We are the preferred supplier of networking, integrated data and voice services to many leading organizations in the global payments and financial communities, as well as a provider of extensive telecommunications network solutions to service providers.
+
+We are a privately held company with a healthy balance sheet, secure assets and a loyal customer base that includes some of the largest global blue-chip companies in the world. Many of the world’s leading companies continue to count on us as their primary provider of a range of networking and communication services, enabling them to expand regionally, nationally and globally. We provide services to customers in over 60 countries throughout the world.
+
+We manage some of the largest real-time community networks in the world, enabling industry participants to simply and securely interact and transact with other businesses, to access the data and applications they need, over managed and secure communications platforms. Our existing footprint supports millions of connections and provide access to critical databases. Our network securely blends private and public networking to enable customers to utilize a single connection for ""one-to-many"" and ""many-to-many""connections over a global platform.
+
+Since our launch we have helped our customers and communities of interest, requiring secure and reliable communications solutions, to evolve from legacy to leading-edge technologies. Today the company provides a full range of services from dedicated connections to managed IP network solutions, providing local support and global reach to medium and large enterprises and service providers.
+
+Application Instructions
+
+Applicants are encouraged to submit an electronic resume when applying for our positions. Job postings are open until filled, unless otherwise specified.",0.23319689505262842
+10,FHLBank Pittsburgh,Diversity and Inclusion Data Analyst,"Position SummaryThe D&I Data Analyst will be responsible for the development of various management, Board of Directors (Board) and Federal Housing Finance Agency (FHFA) reports, including in-depth data analytics, quality reviews and control development, to support the development and execution of strategic objectives. The role will report to the Senior Director of the Office of Diversity and Inclusion and support the operational functions of the Office, including the Bank’s Diversity and Inclusion Leadership Committee, and supporting councils and employee resource groups.Primary Success FactorsThe D&I Data Analyst will demonstrate the ability to:
+
+Assist in the preparation and submission of timely and accurate quarterly and annual reports to FHFA while collaborating with departments to gather and analyze information. Review and provide recommendations regarding proper controls and procedures to ensure the integrity of the reports; identify opportunities for continuous system and process improvements and lead the development of supporting processes.Perform in-depth data analytics, including quantitative, statistical and comparative analysis, to determine patterns and recognize trends; prepare a variety of reports and presentations for management, the Board and FHFA.Translate data into written reports, tables, graphs and charts (including developing creative data visualizations to illustrate key findings); interpret data results to provide written commentary that articulates pertinent findings.Support the development and refinement of performance metrics to evaluate the effectiveness of activities supporting the Bank’s Diversity and Inclusion Strategic Plan; perform ad-hoc analysis to enhance understanding of identified metrics.Conduct research to provide insight on Bank’s performance trends and identified target ranges using publicly available industry and FHLBank system data; serve as a liaison to FHFA, the FHLBank System and other external data analysts specializing in diversity and inclusion.Support operational functions of the Office including, but not limited to, Committee administrative support, coordination of communication materials, organization of exam-related document requests, D&I training, pulse surveys or focus groups, and annual review of policies and procedures.
+
+Required Experience
+
+Bachelor’s degree in business, economics, statistics or related fieldThree years of related experience with strategic initiative project management, process and performance improvement, data analytics and reporting metricsExperience in diversity and inclusion in the financial services industry is a plusHighly proficient with Microsoft Office products; experience with Tableau or other data visualization toolsProven track record with strong written and oral communication, analytical skills, data visualization and project management skills; high level of attention to detail and accuracy; ability to routinely manage large data setsStrong interpersonal skills, self-motivated, and a demonstrated ability to multi-task and work independently while collaborating effectively at all levels of the Bank
+
+It is the policy of the Federal Home Loan Bank of Pittsburgh to ensure equal employment opportunity (EEO) for all employees and applicants for employment without regard to race, religion, color, sex, national origin, age, disability status, genetic information, veteran's status, ancestry, sexual orientation or status as a parent as defined by applicable law. It is the Bank's policy to comply with applicable laws concerning the employment of persons with disabilities, including reasonable accommodation for applicants and employees with disabilities.",0.23221320993462427
