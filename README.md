@@ -4,7 +4,13 @@ This application provides job recommendations based on a given resume uploaded b
 ![main_page](images/main_page.png)
 
 # Overview 
-Sample project oview here
+- Web Scraping: use glassdoor_scraper.ipynb to scrape job posting data from Glassdoor
+- Data Cleaning: two separate scripts are used to preprocess job and resume data, respectively 
+- Recommendation: cosine_similarity.py computes cosine similarity scores, which are used by recommender.py to provide job recommendations
+- Front End: the HTML files are used for the front end, which includes additional functionalities such as viewing the job description details 
+
+![recommendation](images/recommendation.png)
+![view_more](images/view_more.png)
 
 # Running the App
 To test the code, run the following command in your terminal in the job_recommender directory:
