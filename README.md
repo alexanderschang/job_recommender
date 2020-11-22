@@ -6,6 +6,12 @@ This application provides job recommendations based on a given resume uploaded b
 # Overview 
 Sample project oview here
 
+# Running the App
+To test the code, run the following command in your terminal in the job_recommender directory:
+<pre>
+ python3 app.py
+</pre>
+
 # Requirements
 1. <a href="https://www.python.org/"> Python</a> (3.7.7)
 2. <a href="http://jupyter.org/">Jupyter Notebook</a>
