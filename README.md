@@ -12,7 +12,7 @@ Sample project oview here
 3. <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>
 4. <a href="http://www.numpy.org/">NumPy</a>
 5. <a href="http://pandas.pydata.org">Pandas</a>
-6. <a href="http://https://www.nltk.org/">NLTK</a> 
+6. <a href="https://www.nltk.org/">NLTK</a> 
 7. <a href="https://pypi.org/project/regex/">Regex</a> 
 8. <a href="https://texthero.org/">Texthero</a> 
 9. <a href="https://pypi.org/project/Unidecode/">Unidecode</a> 
