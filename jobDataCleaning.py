@@ -37,8 +37,6 @@ df['estimate_salary_range'] = salary
 df['min_salary_estimate'] = salary.apply(lambda x: x.split('-')[0])
 df['max_salary_estimate'] = salary.apply(lambda x: int(x.split('-')[1]))
 
-#df['estimate_salary_point'] = df['estimate_salary_point'].apply(lambda x: x.replace('$', '').replace(',', ''))
-
 # Remove URLs from job descriptions
 no_url = [re.sub(r'http\S+', '', str(description))
           for description in df['job_description']]

@@ -7,15 +7,13 @@ import operator
 import json
 from cosine_similarity import CosineSimilarity
 
-# Import job description data
-#df = pd.read_csv('cleaned_data.csv')
+# Makes job recommendations based on cosine similarity scores
 
 
 def get_recommendations(resume, jobs_df):
     score_dict = {}
 
     for index, row in jobs_df.iterrows():
-        # CosineSimilarity.cosine_similarity_of
         score_dict[index] = CosineSimilarity.cosine_similarity_of(
             row['description_cleaned'], resume)
 
@@ -29,7 +27,7 @@ def get_recommendations(resume, jobs_df):
     resultDF = pd.DataFrame(
         columns=['Job Index', 'Company', 'Title', 'Location', 'Description', 'Job Description'])  # , 'score'])
 
-    # Get highest scored 5 jobs
+    # Get the 10 jobs with the highest similarity scores
     for i in sorted_scores:
         # print index & score of the job description
         resultDF = resultDF.append({'Description': jobs_df.iloc[i[0]]['job_description'],
@@ -45,12 +43,7 @@ def get_recommendations(resume, jobs_df):
             break
 
     json_result = json.dumps(resultDF.to_dict('records'))
-    # return json_result
-
-    # resultDF.to_csv('recs.csv')
-
     resultDF.fillna('', inplace=True)
-    print(resultDF.head())
     return resultDF
 
 
@@ -65,9 +58,3 @@ def top_n_jobs(json_string):
         i += 1
 
     return result
-
-
-# top10_result = get_recommendations(cleaned_resume)
-# company_names = top_5_jobs(top5_result)
-
-# print(top10_result)

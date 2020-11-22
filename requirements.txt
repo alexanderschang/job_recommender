@@ -1,0 +1,13 @@
+# Requirements for the job recommender app 
+# To use, type: pip install -r requirements.txt
+
+## Requirements without version specifiers 
+flask 
+nltk 
+numpy 
+pandas
+regex
+unidecode 
+texthero 
+fitz 
+werkzeug 

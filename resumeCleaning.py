@@ -6,10 +6,8 @@ from texthero import preprocessing
 import pandas as pd
 
 
-# def process_resume(path, filename):
+# Cleans text data from uploaded resume
 def process_resume(doc):
-    #input_file = filename
-    #doc = fitz.open(input_file)
     text = ""
     for page in doc:
         text = text + str(page.getText())
@@ -19,7 +17,6 @@ def process_resume(doc):
 
     # Remove unnecessary punctuations
     cleaned_tx = re.sub(r'[§_|]', '', tx)
-    #cleaned_tx = re.sub(r'[§_()|]','',tx)
 
     # Remove/extract phone numbers
     pattern = re.compile(
@@ -37,8 +34,6 @@ def process_resume(doc):
     email_match = email_pattern.findall(cleaned_tx)
     email_match = ' '.join([str(elem) for elem in email_match])
     cleaned_tx = cleaned_tx.replace(email_match, '')
-
-    # print(cleaned_tx)
 
     # Further cleaning using texthero
     resume_df = pd.DataFrame([cleaned_tx], columns=['resume'])

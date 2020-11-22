@@ -2,6 +2,8 @@ import re
 import math
 from collections import Counter
 
+# Computes the cosine similarity scores
+
 
 class CosineSimilarity:
     def __init__(self):
