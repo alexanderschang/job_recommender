@@ -56,5 +56,4 @@ def top_n_jobs(json_string):
     while i < max_val:
         result.append(jobList[i]['company'])
         i += 1
-
     return result
