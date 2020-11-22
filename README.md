@@ -1,5 +1,5 @@
 # Job Recommendation App 
-![main](images/main.png)
+![main_page](images/main_page.png)
 This application was built using flask 
 
 
