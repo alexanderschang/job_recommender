@@ -1,5 +1,5 @@
 # Job Recommendation App 
-This application provides job recommendations based on a given resume uploaded by the user. The job recommender was built using flask and HTML, and data analysis was done using nltk, regex, pandas, and numpy. 
+This application provides job recommendations based on a given resume uploaded by the user. The job recommender was built using Flask and HTML, and data analysis was done using NLTK, Regex, Pandas, and NumPy. 
 
 ![main_page](images/main_page.png)
 
@@ -13,7 +13,7 @@ This application provides job recommendations based on a given resume uploaded b
 ![view_more](images/view_more.png)
 
 # Running the App
-To test the code, run the following command in your terminal in the job_recommender directory:
+To test the code, you can try cloning the repo and run the following command in your terminal within the job_recommender directory:
 <pre>
  python3 app.py
 </pre>
